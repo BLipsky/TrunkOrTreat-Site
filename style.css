@@ -17,26 +17,21 @@ body {
 }
 .sec {
     border: .25vw solid white;
+    border-radius: 2vw 2vw 0vw 0vw ;
     height: 35vw;
     margin-top: 15vw;
     margin: 4vw;
+    box-shadow: 0vw 0vw 2vw white;
+
 }
 .one {
     background-image: radial-gradient(rgb(0, 116, 0), rgb(0, 102, 0), rgb(0, 71, 0), rgb(0, 56, 0));
 }
 .two {
-    background-image: radial-gradient(purple, rgb(104, 0, 104), rgb(77, 0, 77), rgb(44, 0, 44));
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(207, 179, 207), rgb(77, 0, 77), rgb(44, 0, 44));
 }
 .three {
     background-image: radial-gradient(rgb(179, 116, 0), rgb(153, 99, 0), rgb(112, 73, 0), rgb(75, 49, 0));
-}
-.section2 {
-    background-image: url(Images/ghost.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 23vw;
-    margin-top: 5vw;
 }
 .section1 {
     background-image: url(Images/zombie.png);
@@ -46,6 +41,39 @@ body {
     height: 30vw;
     margin-top: 2vw;
 }
+#section1text {
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 0vw 0vw 2vw rgb(255, 255, 255);
+    margin-top: .5vw;
+    text-align: center;
+    font-size: 2.5vw;
+}
+#section2text {
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 0vw 0vw 2vw rgb(255, 255, 255);
+    margin-top: .5vw;
+    text-align: center;
+    font-size: 2.5vw;
+}
+#section3text {
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 0vw 0vw 2vw rgb(255, 255, 255);
+    margin-top: .5vw;
+    text-align: center;
+    font-size: 2.5vw;
+}
+.section2 {
+    background-image: url(Images/ghost.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 23vw;
+    margin-top: 5vw;
+}
+
 .section3 {
     background-image: url(Images/jackright.webp);
     background-size: cover;
