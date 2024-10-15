@@ -2,8 +2,12 @@ body {
     background-color: black;
 }
 .fronthead {
-    background-color: rgb(85, 0, 85);
+    background-image: url("Images/tittle.png");
     height: 35vw;
+    background-position: center;
+    background-size: cover, contain;
+    background-repeat: no-repeat;
+    box-shadow: -1vw 1vw 3vw 0vw rgb(141, 85, 0);
 }
 .hill3 {
     background-color: black;
@@ -13,7 +17,7 @@ body {
 .blackline {
     background-color: black;
     height: 1vw;
-    box-shadow: -1vw 1vw 3vw 0vw white;
+    box-shadow: -1vw 1vw 3vw 0vw rgb(141, 0, 129);
 }
 .sec {
     border: .25vw solid white;
@@ -82,3 +86,10 @@ body {
     height: 23vw;
     margin-top: 5vw;
 }
+.zom {
+    color: white;
+    text-decoration: none;
+}
+
+
+
