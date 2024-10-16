@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 .fronthead {
     background-image: url("Images/tittle.png");
@@ -90,6 +91,80 @@ body {
     color: white;
     text-decoration: none;
 }
+.caul {
+    background-image: url(Images/Cauldron.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vw;
+}
+.infobox {
+    background-image: radial-gradient( green, rgb(0, 161, 0), rgb(0, 194, 0),  rgb(0, 212, 0));
+    border: 1vw solid rgb(0, 87, 4);
+    border-radius: 10vw;
+    margin: 10vw;
+    padding: 2.5vw;
+    text-align: center;
+    box-shadow: 0vw 0vw 5vw 2vw rgb(25, 105, 0);
+    color: white;
+    text-shadow: 0vw 0vw 2vw white;
+}
+.infobox2 {
+    background-color: rgb(121, 121, 121);
+    border: .5vw solid rgb(218, 116, 0);
+    border-top: 0vw solid white;
+    border-radius: 10vw 10vw 0vw 0vw;
+    margin: 10vw;
+    margin-top: 0vw;
+    padding: 5vw;
+    text-align: center;
+    box-shadow: 0vw 4vw 4vw 2vw rgb(93, 0, 105);
+    color: rgb(0, 0, 0);
+    text-shadow: 0vw 0vw 2vw rgb(255, 255, 255);
+}
+.homdiv {
+    background-color: rgb(121, 121, 121);
+    border: .5vw solid rgb(218, 116, 0);
+    border-bottom: 0vw solid white;
+    border-radius: 10vw 10vw 0vw 0vw;
+    margin: 25vw;
+    margin-bottom: 0vw;
+    padding: 5vw;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    box-shadow: 0vw -2vw 2vw 2vw rgb(93, 0, 105);
+    text-shadow: 0vw 0vw 2vw rgb(255, 255, 255);
+}
+.linky {
+    text-decoration: none;
+    text-decoration: white;
+}
+.floor {
+    background-color: grey;
+    margin-top: -2vw;
+    border-top: 1vw solid rgb(70, 70, 70);
+    box-shadow: 0vw 0vw 5vw 2vw rgb(70, 70, 70);
+    height: 125vw;
+    font-family:cursive;
+    text-align: center;
+    padding-top: 10vw;
+    font-size: 5vw;
+    color: lime;
+    text-shadow: 0vw 0vw 2vw rgb(0, 0, 0);
 
-
+}
+.floor span {
+    display: inline-block;
+    animation: flip 6s infinite;
+    animation-delay: calc(.9s * var(--i));
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+  .inv {
+    opacity: 0%;
+  }
 
