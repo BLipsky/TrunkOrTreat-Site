@@ -136,6 +136,19 @@ body {
     box-shadow: 0vw -2vw 2vw 2vw rgb(93, 0, 105);
     text-shadow: 0vw 0vw 2vw rgb(255, 255, 255);
 }
+.homdiv2 {
+    background-color: lightgray;
+    border: .5vw solid rgb(255, 255, 255);
+    box-shadow: 0vw 0vw 2vw 1vw rgb(180, 108, 0);
+    border-radius: 10vw 10vw 0vw 0vw;
+    margin: 10vw;
+    margin-bottom: 0vw;
+    padding: 5vw;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    text-shadow: 0vw 0vw 2vw rgb(255, 255, 255);
+}
 .linky {
     text-decoration: none;
     text-decoration: white;
@@ -167,4 +180,27 @@ body {
   .inv {
     opacity: 0%;
   }
-
+.card-body {
+    border-top: 5px solid white;
+}
+.card {
+    margin: 2vw;
+    border-radius: 3vw 3vw 3vw 3vw;
+    background-color: lightgray;
+    text-shadow: 0vw 0vw 2vw rgb(0, 0, 0);
+    text-align: center;
+    border: .5px solid rgb(255, 255, 255);
+    box-shadow: 0vw 0vw 3vw .5vw rgb(255, 255, 255);
+}
+.t1 {
+    border-radius: 3vw 0vw 0vw 3vw;
+}
+.t11 {
+    border-radius: 3vw 0vw 0vw 3vw;
+}
+.t3 {
+    border-radius: 0vw 3vw 3vw 0vw;
+}
+.t33 {
+    border-radius: 0vw 3vw 3vw 0vw;
+}

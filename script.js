@@ -3,6 +3,8 @@ $(document).ready( () => {
     $('#section1text').hide();
     $('#section2text').hide();
     $('#section3text').hide();
+    
+    $('.card-body').hide();
 
     $('.infobox').hide();
 
@@ -43,6 +45,53 @@ $(document).ready( () => {
         $('#section3text').fadeOut(100);
 
       });
-    
+        $('.t1').on('mouseover', () => {
+            $('.ta').toggle(1000);
+            $('.tb').hide(1000);
+            $('.tc').hide(1000);
+            $('.td').hide(1000);
+            $('.te').hide(1000);
+            $('.tf').hide(1000);
+          });
+          $('.t2').on('mouseover', () => {
+            $('.tb').toggle(1000);
+            $('.ta').hide(1000);
+            $('.tc').hide(1000);
+            $('.td').hide(1000);
+            $('.te').hide(1000);
+            $('.tf').hide(1000);
+          });
+          $('.t3').on('mouseover', () => {
+            $('.tc').toggle(1000);
+            $('.tb').hide(1000);
+            $('.ta').hide(1000);
+            $('.td').hide(1000);
+            $('.te').hide(1000);
+            $('.tf').hide(1000);
+          });
+          $('.t11').on('mouseover', () => {
+            $('.td').toggle(1000);
+            $('.tb').hide(1000);
+            $('.tc').hide(1000);
+            $('.ta').hide(1000);
+            $('.te').hide(1000);
+            $('.tf').hide(1000);
+          });
+          $('.t22').on('mouseover', () => {
+            $('.te').toggle(1000);
+            $('.tb').hide(1000);
+            $('.tc').hide(1000);
+            $('.td').hide(1000);
+            $('.ta').hide(1000);
+            $('.tf').hide(1000);
+          });
+          $('.t33').on('mouseover', () => {
+            $('.tf').toggle(1000);
+            $('.tb').hide(1000);
+            $('.tc').hide(1000);
+            $('.td').hide(1000);
+            $('.te').hide(1000);
+            $('.ta').hide(1000);
+          });
 });
 
