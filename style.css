@@ -136,6 +136,9 @@ body {
     box-shadow: 0vw -2vw 2vw 2vw rgb(93, 0, 105);
     text-shadow: 0vw 0vw 2vw rgb(255, 255, 255);
 }
+.smally {
+    font-size: 1.5vw;
+}
 .homdiv2 {
     background-color: lightgray;
     border: .5vw solid rgb(255, 255, 255);
